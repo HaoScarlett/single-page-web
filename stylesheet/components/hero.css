@@ -23,16 +23,16 @@
     color: var(--colorGrayLight);
 }
 
-.hero__photo-container {
+/* .hero__photo-container {
     margin: 3rem 1rem 2.5rem;
     height: 242px;
     border: 0.5px solid plum;
-}
+} */
 
 .hero__image {
     position: relative;
     translate: -50%;
-    top: -71px;
+    top: -47px;
     height: auto;
     left: 50%;
     z-index: -1;
@@ -72,10 +72,10 @@
         flex-shrink: 0;
     }
 
-    .hero__photo-container {
+    /* .hero__photo-container {
         width: 322px;
         height: 600px;
-    }
+    } */
 }
 
 /* lg */
