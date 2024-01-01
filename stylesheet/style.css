@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* line-height: 1; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--colorWhite);
+    background-color: var(--colorBlack);
+}
+
+img,
+picture,
+svg,
+video,
+canvas {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+:root {
+    --colorBlack: #151515;
+    --colorGreen: #4EE1A0;
+    --colorGrayDark: #242424;
+    --colorGrayLight: #d9d9d9;
+    --colorWhite: #FFFFFF;
+    --fs-XL: 55rem;/*88px;*/
+    --fw-XL: 700;
+    --letterSpace-XL: -2.5px;
+    --fs-LL: 4.5rem; /* 72px */
+    --fs-L: 3rem;/*48px;*/
+    --lineHeight-L: 3.5rem;/*56px;*/
+    --letterSpacing-L: -1.5px;
+    --fs-LS: 2.5rem; /* 40px */
+    --fs-Ml: 2rem; /* 32px */
+    --fs-M: 1.5rem;/*24px;*/
+    --lineHeight-M: 2rem;/*32px;*/
+    --fs-Medium: 1.125rem;/*18px;*/
+    --fw-Medium: 500;
+    --lineHeight-Medium: 1.75rem;/*28px;*/
+    --fs-S: 1rem;
+}
+
+/* Button */
+.btn{
+    font-size: var(--fs-S);
+    font-weight: var(--fw-XL);
+    line-height: 162.5%;
+    letter-spacing: 2.286px;
+    text-decoration: underline 2px var(--colorGreen);
+    text-underline-offset: 10px;
+}

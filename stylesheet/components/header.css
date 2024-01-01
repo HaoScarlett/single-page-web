@@ -1,0 +1,145 @@
+.header__container {
+  width: 154px;
+  height: 72px;
+  margin-top: 1.25rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 0.5px solid greenyellow;
+
+}
+
+/* .custom-element {
+  font: var(--custom-font-weight) var(--custom-font-style) var(--custom-font-size)/calc(var(--custom-font-size) * var(--custom-line-height)) var(--custom-font) var(--custom-letter-spacing);
+} */
+.header__title {
+  font-size: var(--fs-M);
+  font-weight: 700;
+  letter-spacing: -0.333px;
+  align-self: center;
+}
+
+.header__social-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 20px;
+}
+
+
+.header__social--svg svg {
+  height: 20px;
+  width: auto;
+}
+
+
+/* xs */
+@media (min-width:475px) {
+  .header__container {
+    width: 9.625rem;
+    height: 4.5rem;
+    margin-inline: auto;
+  }
+
+  .header__social-container {
+    margin-inline: 0;
+  }
+}
+
+/* sm */
+@media (min-width:640px) {
+  .header__container {
+    width: 36.25rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.875rem;
+    /* margin-inline: 1.875rem; */
+  }
+
+  .header__social-container {
+    width: 12rem;
+    height: 25px;
+    align-items: center;
+  }
+
+  .header__social--svg svg {
+    height: 25px;
+    width: auto;
+  }
+
+  .header__title {
+    font-size: var(--fs-Ml);
+    line-height: var(--lineHeight-M);
+    letter-spacing: -0.444px;
+  }
+}
+
+/* md Tablet */
+@media (min-width:768px) {
+  .header__container {
+    width: 44.25rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21.5rem;
+    margin-top: 1.875rem;
+    /* margin-inline: 1.875rem; */
+  }
+
+  .header__social-container {
+    width: 12rem;
+    height: 25px;
+    align-items: center;
+  }
+
+  .header__social--svg svg {
+    height: 25px;
+    width: auto;
+  }
+
+  .header__title {
+    font-size: var(--fs-Ml);
+    line-height: var(--lineHeight-M);
+    letter-spacing: -0.444px;
+  }
+}
+
+/* lg Destop */
+@media (min-width:1024px) {
+  .header__container {
+    width: 100%;
+    height: 2rem;
+    margin-top: 2.4rem;
+    margin-inline: 0;
+  }
+}
+
+/* xl */
+@media (min-width:1280px) {
+  .header__container {
+    width: 100%;
+    height: 2rem;
+    margin-top: 2.4rem;
+    margin-inline: 0;
+  }
+}
+
+/* 2xl */
+@media (min-width:1440px) {
+  .header__container {
+    width: 100%;
+    height: 2rem;
+    margin-top: 2.4rem;
+    margin-inline: 0;
+  }
+
+  .header__social-container {
+    margin-right: 1.84rem;
+  }
+}
