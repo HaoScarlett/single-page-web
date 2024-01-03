@@ -49,6 +49,7 @@
     position: absolute;
     top: 0;
     left: 50%;
+    z-index: -2;
     translate: -50%;
     width: 174px;
     height: auto;
@@ -126,6 +127,10 @@
 
 /* 2xl */
 @media (min-width:1440px) {
+    .hero{
+        position: relative;
+    }
+
     .hero__container{
         margin-top: 7.94rem;
         margin-inline: 0;
@@ -133,6 +138,9 @@
     .hero__image {
         width: 445px;
         left: 829px;
+        position: absolute;
+        top: -121px;
+        left: 60%;
     }
 
     .hero__title{
