@@ -74,6 +74,10 @@
     overflow: hidden;
 }
 
+/* .hero__btn{
+    margin-bottom: 40px;
+} */
+
 /* Mobile first media queries */
 /* 2xs */
 /* @media (min-width: 375px) {} */
@@ -136,6 +140,10 @@
         width: 322px;
         height: 600px;
     } */
+
+    .hero__circle {
+        top: 471px;
+    }
 }
 
 /* lg */
@@ -157,7 +165,7 @@
 
     .hero__image {
         width: 445px;
-        left: 829px;
+        /* left: 829px; */
         position: absolute;
         top: -121px;
         left: 60%;
@@ -189,7 +197,7 @@
 
     .hero__circle {
         top: 443px;
-        left: 521px;
+        left: 538px;
     }
 }
 
